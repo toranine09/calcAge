@@ -1,5 +1,5 @@
 # calcAge
-calcAge is a simple script that takes a year, month, and day and determines how many years have passed since that date. The expected use is for calculating ages. I created it for filling in my age on my personal site :)
+calcAge is a simple script for use on websites which display the age of a person, pet, project, etc. It takes a year, month, and day and determines how many years have passed since that date. The expected use is for calculating ages. I created it for filling in my age on my personal site :)
 
 ## Setup
 The only configuration required is to set the ID of the HTML element, the year/month/day of birth, the flavour text that appears after the age, and the fallback text to display if the script fails to complete.
