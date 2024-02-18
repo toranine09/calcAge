@@ -17,7 +17,7 @@ const ageCurrentMonth = ageCurrentDate.getMonth();
 const ageCurrentDay = ageCurrentDate.getDate();
 var ageYearsElapsed = ageCurrentYear - ageBirthYear;
 var ageTextElement = document.getElementById(ageTextElementId);
-var ageCakeClassElements = document.getElementById(ageCakeTextClassName);
+var ageCakeClassElements = document.getElementsByClassName(ageCakeTextClassName);
 
 calcAgeInitialise();
 
