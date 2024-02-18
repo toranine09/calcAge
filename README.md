@@ -16,9 +16,13 @@ const ageCakeFlavourText = [" 🎉", " 🎂", " 🍰", " today!"]; // celebratio
 const ageFallbackCakeFlavourText = " today!";
 ```
 The variables `ageBirthYear`, `ageBirthMonth`, and `ageBirthDay` are self explanatory - input the year, numerical month, and numerical day for the birthday.
+
 The variables `ageTextElementId` and `ageCakeTextClassName` are where you put the HTML ID for the element where you want the age text (eg "24 years old"), and the HTML class name for the element(s) where you want the celebratory text (eg: " 🎉"), respectively.
+
 Flavour text refers to the appended text that goes with the calculated age (eg: " years old"), or the celebration text itself (eg: " 🎉"). The flavour text is an array, so you can set a list of text to be randomly selected. It also works with just one item, so you don't need to have multiple entries.
+
 The fallback variables `ageFallbackAgeFlavourText` and `ageFallbackCakeFlavourText` are used when some calculation/randomisation error occurs. The fallback text will completely overwrite the text inside element, so make sure to set this to something that you're happy to display if the calculation or random flavour text fails.
+
 Finally, `ageMakeCake` is a boolean to toggle whether celebratory text is used at all. You can also make `ageCakeTextClassName` null to achieve the same effect.
 
 ## Limitations
